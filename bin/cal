@@ -1,0 +1,6 @@
+require File.join(File.dirname(__FILE__), '..', 'lib', 'cal', 'cal')
+
+if $0 == __FILE__
+  cal = Cal.new ARGV[0]
+  puts cal.output
+end
